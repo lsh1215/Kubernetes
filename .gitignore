@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Kubernetes local and sensitive files
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+*.key
+*.pem
+*.crt
+*.csr
+secrets/
+*.secret.yaml
+*.secret.yml
+
+# Tooling state
+.omx/
+
