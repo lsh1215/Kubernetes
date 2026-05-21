@@ -139,6 +139,10 @@ find manifests -type f
 | `manifests/` | 실행 가능한 Kubernetes YAML 예제 |
 | `omx_wiki/` | 사용자가 직접 생성하는 AI용 장기 기억 저장소 |
 
+### 학습 자료
+
+- [JSCODE Kubernetes Playlist Notes](docs/deep-dives/jscode-kubernetes-playlist/README.md): JSCODE 쿠버네티스 플레이리스트의 챕터별 사전 학습 노트
+
 ## 라이선스
 
 현재는 개인 학습 프로젝트로 관리합니다. 콘텐츠를 공개적으로 재사용하거나 배포하기 전에 라이선스를 추가하세요.

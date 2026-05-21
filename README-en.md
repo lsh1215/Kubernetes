@@ -139,6 +139,10 @@ This repository separates human-readable study documents from long-term AI memor
 | `manifests/` | Runnable Kubernetes YAML examples |
 | `omx_wiki/` | User-created AI-oriented long-term memory |
 
+### Study Materials
+
+- [JSCODE Kubernetes Playlist Notes](docs/deep-dives/jscode-kubernetes-playlist/README.md): Chapter-by-chapter pre-study notes for the JSCODE Kubernetes playlist
+
 ## License
 
 This repository is currently maintained as a personal study project. Add a license before reusing or distributing the content publicly.
