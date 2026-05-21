@@ -104,15 +104,9 @@ find manifests -type f
 │   └── images/
 ├── docs/
 │   ├── concepts/
-│   ├── guides/
-│   ├── reference/
-│   └── troubleshooting/
-├── labs/
-│   ├── basics/
-│   ├── networking/
-│   ├── security/
-│   ├── storage/
-│   └── workloads/
+│   ├── deep-dives/
+│   ├── labs/
+│   └── study-log/
 ├── manifests/
 │   ├── base/
 │   └── examples/
@@ -131,6 +125,19 @@ find manifests -type f
 - [ ] 트러블슈팅과 디버깅 흐름
 - [ ] 보안, RBAC, 정책 기초
 - [ ] 관측성과 GitOps 실습
+
+## 문서화 방식
+
+이 저장소는 사람이 읽는 학습 문서와 AI가 다시 참고할 장기 기억을 분리합니다.
+
+| 위치 | 역할 |
+| --- | --- |
+| `docs/study-log/` | 날짜별 학습 흐름, 의미 있는 질문, 실험 결과, 아직 모호한 점 |
+| `docs/concepts/` | 안정화된 개념 문서. 근원탐색과 References를 문서 안에 포함 |
+| `docs/deep-dives/` | 여러 개념을 관통하는 큰 조사, 비교, 역사, 설계 배경 |
+| `docs/labs/` | 실습 기록, 명령어, 관찰 결과, 에러와 해결 과정 |
+| `manifests/` | 실행 가능한 Kubernetes YAML 예제 |
+| `omx_wiki/` | 사용자가 직접 생성하는 AI용 장기 기억 저장소 |
 
 ## 라이선스
 
