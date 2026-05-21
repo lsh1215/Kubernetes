@@ -104,15 +104,9 @@ find manifests -type f
 │   └── images/
 ├── docs/
 │   ├── concepts/
-│   ├── guides/
-│   ├── reference/
-│   └── troubleshooting/
-├── labs/
-│   ├── basics/
-│   ├── networking/
-│   ├── security/
-│   ├── storage/
-│   └── workloads/
+│   ├── deep-dives/
+│   ├── labs/
+│   └── study-log/
 ├── manifests/
 │   ├── base/
 │   └── examples/
@@ -131,6 +125,19 @@ find manifests -type f
 - [ ] Troubleshooting and debugging workflows
 - [ ] Security, RBAC, and policy basics
 - [ ] Observability and GitOps practices
+
+## Documentation Model
+
+This repository separates human-readable study documents from long-term AI memory.
+
+| Location | Role |
+| --- | --- |
+| `docs/study-log/` | Daily study flow, meaningful questions, experiment results, unresolved points |
+| `docs/concepts/` | Stable concept documents with root-cause context and references included |
+| `docs/deep-dives/` | Broad research, comparisons, history, and architecture tradeoffs spanning multiple concepts |
+| `docs/labs/` | Hands-on practice records, commands, observations, errors, and fixes |
+| `manifests/` | Runnable Kubernetes YAML examples |
+| `omx_wiki/` | User-created AI-oriented long-term memory |
 
 ## License
 
