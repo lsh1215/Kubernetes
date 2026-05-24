@@ -142,6 +142,8 @@ This repository separates human-readable study documents from long-term AI memor
 ### Study Materials
 
 - [JSCODE Kubernetes Playlist Notes](docs/deep-dives/jscode-kubernetes-playlist/README.md): Chapter-by-chapter pre-study notes for the JSCODE Kubernetes playlist
+- [Docker Internals: namespace, cgroup, chroot, image layer](docs/deep-dives/docker-container-internals-44bits.md): Container internals study notes based on 44bits articles and conversation context
+- [Docker Internals Hands-on](docs/labs/docker-container-internals-hands-on.md): Hands-on exercises for namespace, cgroup, `docker diff`, `docker commit`, and OverlayFS
 
 ## License
 

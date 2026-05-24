@@ -142,6 +142,8 @@ find manifests -type f
 ### 학습 자료
 
 - [JSCODE Kubernetes Playlist Notes](docs/deep-dives/jscode-kubernetes-playlist/README.md): JSCODE 쿠버네티스 플레이리스트의 챕터별 사전 학습 노트
+- [Docker Internals: namespace, cgroup, chroot, image layer](docs/deep-dives/docker-container-internals-44bits.md): 44bits 글과 대화 기록을 바탕으로 정리한 컨테이너 내부 구조 학습 문서
+- [Docker Internals Hands-on](docs/labs/docker-container-internals-hands-on.md): namespace, cgroup, `docker diff`, `docker commit`, OverlayFS 따라치기 실습
 
 ## 라이선스
 
